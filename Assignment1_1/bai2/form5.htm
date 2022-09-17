@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="JavaScript">
+        function doichuhoa() {
+            var ktu = document.f1.t1.value
+            document.f1.t2.value = ktu.toUpperCase()
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="f1" action="xulichuhoa.jsp" method="post" id="form_5">
+        <input type="text" name="t1" value="" onblur="doichuhoa()">
+        <input type="text" name="t2" value="">
+    </form>
+</body>
+</html>
+
+
